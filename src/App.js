@@ -1,13 +1,15 @@
 import './App.css';
 
 import React, { Component } from 'react'
+import Navbar from './components/Navbar';
+import News from './components/News';
 
 export default class App extends Component {
-  authur = "Shubham";
   render() {
     return (
       <div>
-        <h>Welcome to NewsApp !!!-</h>{this.authur}
+        <Navbar/>
+        <News/>
       </div>
     )
   }
